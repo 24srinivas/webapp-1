@@ -1,24 +1,24 @@
 .parent{
-  border: 3px solid red;
+  border: 3px solid #E74C3C;
   display: flex;
   flex-direction: row;
 }
 .childone{
-  border: 3px solid blue;
+  border: 3px solid #AED6F1;
   text-align: center;
   padding: 3%;
   margin: 2%;
   width: 40%;
-  background-color: skyblue;
+  background-color: #85C1E9;
   border-radius: 10%;
 }
 .childtwo{
-  border: 3px solid blue;
+  border: 3px solid #AED6F1;
   text-align: center;
   padding: 3%;
   margin: 2%;
   width: 60%;
-  background-color: skyblue;
+  background-color: #85C1E9;
   border-radius: 10%;
 }
 img{
@@ -39,57 +39,101 @@ a{
 
 @media only screen and (min-width: 320px) and (max-width: 440px){
 .parent{
-  border: 3px solid red;
+  border: 3px solid #E74C3C;
   display: flex;
   flex-direction: column;
 }
 .childone{
-  border: 3px solid blue;
+  border: 3px solid #AED6F1;
   text-align: center;
   padding: 3%;
   margin: 2%;
-  width: 40%;
-  background-color: skyblue;
+  width: 87%;
+  background-color: #85C1E9;
   border-radius: 10%;
   font-size: auto;
 }
 .childtwo{
-  border: 3px solid blue;
+  border: 3px solid #AED6F1;
   text-align: center;
   padding: 3%;
   margin: 2%;
-  width: 60%;
-  background-color: skyblue;
+  width: 87%;
+  background-color: #85C1E9;
   border-radius: 10%;
 }
 
+a{
+  word-wrap: break-word;
 }
 
 
-@media only screen and (min-width: 480px) and (max-width:720px ){
+}
+
+
+@media only screen and (min-width: 481px) and (max-width:768px ){
 .parent{
-  border: 3px solid red;
+  border: 3px solid #E74C3C;
   display: flex;
   flex-direction: row;
 }
 .childone{
-  border: 3px solid blue;
+  border: 3px solid #AED6F1;
   text-align: center;
   padding: 3%;
   margin: 2%;
   width: 50%;
-  background-color: orange;
+  background-color: #F8C471;
   border-radius: 10%;
   font-size: auto;
 }
 .childtwo{
-  border: 3px solid blue;
+  border: 3px solid #AED6F1;
   text-align: center;
   padding: 3%;
   margin: 2%;
   width: 50%;
-  background-color: orange;
+  background-color: #F8C471;
   border-radius: 10%;
+}
+
+a{
+  word-wrap: break-word;
+
+}
+
+}
+
+@media only screen and (min-width: 769px) and (max-width:1024px ){
+.parent{
+  border: 3px solid white;
+  display: flex;
+  flex-direction: row;
+}
+.childone{
+  border: 3px solid #AED6F1;
+  text-align: center;
+  padding: 3%;
+  margin: 2%;
+  width: 50%;
+  background-color: #17202A;
+  color: white;
+  border-radius: 10%;
+  font-size: auto;
+}
+.childtwo{
+  border: 3px solid #AED6F1;
+  text-align: center;
+  padding: 3%;
+  margin: 2%;
+  width: 50%;
+  color: white;
+  background-color: #17202A;
+  border-radius: 10%;
+}
+a{
+  color: #FDFEFE;
+  word-wrap: break-word;
 }
 
 }
