@@ -48,7 +48,7 @@ a{
   text-align: center;
   padding: 3%;
   margin: 2%;
-  width: 87%;
+  width: 50%;
   background-color: #85C1E9;
   border-radius: 10%;
   font-size: auto;
@@ -58,7 +58,7 @@ a{
   text-align: center;
   padding: 3%;
   margin: 2%;
-  width: 87%;
+  width: 50%;
   background-color: #85C1E9;
   border-radius: 10%;
 }
@@ -112,7 +112,7 @@ a{
 }
 .childone{
   border: 3px solid #AED6F1;
-  text-align: center;
+  text-align: left;
   padding: 3%;
   margin: 2%;
   width: 50%;
@@ -131,9 +131,13 @@ a{
   background-color: #17202A;
   border-radius: 10%;
 }
+img{
+  margin-left : 22%;
+  margin-right: 78;
+
+}
 a{
   color: #FDFEFE;
   word-wrap: break-word;
 }
-
 }
