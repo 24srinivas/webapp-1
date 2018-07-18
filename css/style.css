@@ -48,7 +48,7 @@ a{
   text-align: center;
   padding: 3%;
   margin: 2%;
-  width: 100%;
+  width: auto;
   background-color: #85C1E9;
   border-radius: 10%;
   font-size: auto;
@@ -58,7 +58,7 @@ a{
   text-align: center;
   padding: 3%;
   margin: 2%;
-  width: 100%;
+  width: auto;
   background-color: #85C1E9;
   border-radius: 10%;
 }
