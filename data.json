@@ -2,8 +2,14 @@
   "basic":{
   "image":"img/img.jpg",
   "name":"Krishna",
-  "adress":"Srkr College,Bhimavaram.",
+  "v":"Address:",
+  "address":"Srkr College,Bhimavaram.",
   "phone":"+91-938475781",
   "email":"17b9@srkrec.edu.in"
+},
+  "obj":{
+    "r":"Careeer Objective",
+    "main":"A hiring manager for a position in a public relations company may be less interested in your analytical ability but keen to know how your public speaking abilities are. "
   }
+
 }
