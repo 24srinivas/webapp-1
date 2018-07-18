@@ -1,7 +1,7 @@
 .parent{
   border: 3px solid red;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 .childone{
   border: 3px solid blue;
@@ -41,7 +41,7 @@ a{
 .parent{
   border: 3px solid red;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 .childone{
   border: 3px solid blue;
@@ -60,6 +60,35 @@ a{
   margin: 2%;
   width: 50%;
   background-color: skyblue;
+  border-radius: 10%;
+}
+
+}
+
+
+@media only screen and (min-width: 480px) and (max-width:720px ){
+.parent{
+  border: 3px solid red;
+  display: flex;
+  flex-direction: row;
+}
+.childone{
+  border: 3px solid blue;
+  text-align: center;
+  padding: 3%;
+  margin: 2%;
+  width: 25%;
+  background-color: orange;
+  border-radius: 10%;
+  font-size: 100px;
+}
+.childtwo{
+  border: 3px solid blue;
+  text-align: center;
+  padding: 3%;
+  margin: 2%;
+  width: 50%;
+  background-color: orange;
   border-radius: 10%;
 }
 
