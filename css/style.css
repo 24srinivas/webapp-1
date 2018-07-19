@@ -1,10 +1,10 @@
 .parent{
-  border: 3px solid #E74C3C;
+ #E74C3C;
   display: flex;
   flex-direction: row;
 }
 .childone{
-  border: 3px solid #AED6F1;
+ #AED6F1;
   text-align: center;
   padding: 3%;
   margin: 2%;
@@ -13,7 +13,7 @@
   border-radius: 10%;
 }
 .childtwo{
-  border: 3px solid #AED6F1;
+ #AED6F1;
   text-align: auto;
   padding: 3%;
   margin: 2%;
@@ -43,7 +43,7 @@ a{
 
 @media only screen and (min-width: 320px) and (max-width: 440px){
 .parent{
-  border: 3px solid #E74C3C;
+ #E74C3C;
   display: flex;
   flex-direction: column;
 }
@@ -51,7 +51,7 @@ table{
   width:90%;
 }
 .childone{
-  border: 3px solid #AED6F1;
+ #AED6F1;
   text-align: center;
   padding: 3%;
   margin: 2%;
@@ -61,7 +61,7 @@ table{
   font-size: auto;
 }
 .childtwo{
-  border: 3px solid #AED6F1;
+ #AED6F1;
   text-align: center;
   padding: 3%;
   margin: 2%;
@@ -80,7 +80,7 @@ a{
 
 @media only screen and (min-width: 481px) and (max-width:768px ){
 .parent{
-  border: 3px solid #E74C3C;
+ #E74C3C;
   display: flex;
   flex-direction: row;
 }
@@ -88,7 +88,7 @@ table{
   width:90%;
 }
 .childone{
-  border: 3px solid #AED6F1;
+ #AED6F1;
   text-align: center;
   padding: 3%;
   margin: 2%;
@@ -98,7 +98,7 @@ table{
   font-size: auto;
 }
 .childtwo{
-  border: 3px solid #AED6F1;
+ #AED6F1;
   text-align: center;
   padding: 3%;
   margin: 2%;
@@ -116,7 +116,7 @@ a{
 
 @media only screen and (min-width: 769px) and (max-width:1024px ){
 .parent{
-  border: 3px solid white;
+ white;
   display: flex;
   flex-direction: row;
 }
@@ -125,7 +125,7 @@ table{
     color: #FDFEFE;
 }
 .childone{
-  border: 3px solid #AED6F1;
+ #AED6F1;
   text-align: left;
   padding: 3%;
   margin: 2%;
@@ -136,7 +136,7 @@ table{
   font-size: auto;
 }
 .childtwo{
-  border: 3px solid #AED6F1;
+ #AED6F1;
   text-align: center;
   padding: 3%;
   margin: 2%;

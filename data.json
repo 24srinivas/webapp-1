@@ -48,10 +48,20 @@
       }
  ],
 
- "achivements":
+ "achivements":[
    {
-     "Code":"23rd rank",
-     "Nptel":"83%",
-     "Eamcet":"26669"
+     "title":"Code master",
+     "rank":"23rd rank"
+   },
+
+   {
+     "title":"Nptel in c:",
+     "rank":"83%"
+   },
+   {
+     "title":"Eamcet",
+     "rank":"26669"
    }
+ ]
+
 }

@@ -112,6 +112,28 @@ function education(edu){
       skilldata.innerHTML=tabledata;
   }
 
+  function achi(a)
+  {
+    var title=document.createElement("h3");
+    title.textContent="Achivements:";
+    child1.appendChild(title);
+
+    var line=document.createElement("hr");
+    child1.appendChild(line);
+
+    var skilldata=document.createElement("table");
+    skilldata.border="1";
+    child1.appendChild(skilldata);
+
+    tabledata="";
+    for(i=0;i<a.length;i++)
+    {
+       tabledata+="<tr><td>"+a[i].title+"<td>"+a[i].rank;
+    }
+    skilldata.innerHTML=tabledata;
+
+  }
+
 function loadjson(file){
   return new Promise((resolve,reject)=>{
   return fetch(file).then(response=>{
@@ -132,5 +154,5 @@ var newfile = loadjson("data.json");
     detail(data.obj);
     education(data.education);
     skill(data.skills);
-
+    achi(data.achivements);
   })
