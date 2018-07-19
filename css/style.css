@@ -14,7 +14,7 @@
 }
 .childtwo{
   border: 3px solid #AED6F1;
-  text-align: center;
+  text-align: auto;
   padding: 3%;
   margin: 2%;
   width: 60%;
@@ -33,6 +33,10 @@ img{
   text-align : left;
 }
 
+table{
+  width:90%;
+}
+
 a{
   word-wrap: break-word;
 }
@@ -42,6 +46,9 @@ a{
   border: 3px solid #E74C3C;
   display: flex;
   flex-direction: column;
+}
+table{
+  width:90%;
 }
 .childone{
   border: 3px solid #AED6F1;
@@ -77,6 +84,9 @@ a{
   display: flex;
   flex-direction: row;
 }
+table{
+  width:90%;
+}
 .childone{
   border: 3px solid #AED6F1;
   text-align: center;
@@ -109,6 +119,10 @@ a{
   border: 3px solid white;
   display: flex;
   flex-direction: row;
+}
+table{
+  width:90%;
+    color: #FDFEFE;
 }
 .childone{
   border: 3px solid #AED6F1;

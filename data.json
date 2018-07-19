@@ -8,8 +8,50 @@
   "email":"17b9@srkrec.edu.in"
 },
   "obj":{
+    "about":"Education Qualification",
     "r":"Careeer Objective",
-    "main":"A hiring manager for a position in a public relations company may be less interested in your analytical ability but keen to know how your public speaking abilities are. "
-  }
+    "main":"A hiring manager for a position in a public relations company may be less interested in your analytical ability but keen to know how your public speaking abilities are."
+  },
 
+   "education":[
+    {
+      "degree":"Btech",
+      "institute":"SRKR Engineering College",
+      "data":["2017,2018"]
+    },
+
+    {
+      "degree":"Intermidiate",
+      "institute":"Aditya Junior College",
+      "data":["2015,2016"]
+    },
+    {
+      "degree":"SSC",
+      "institute":"Pragati high school",
+      "data":["2014"]
+    }
+ ],
+
+ "skills":[
+
+      {
+          "data":"Languags",
+           "lang":"c,c++,java"
+      },
+      {
+        "data":"Data Base",
+        "lang":"mysql"
+      },
+      {
+        "data":"Operating Systems",
+        "lang":"linux,windows"
+      }
+ ],
+
+ "achivements":
+   {
+     "Code":"23rd rank",
+     "Nptel":"83%",
+     "Eamcet":"26669"
+   }
 }
